@@ -1,0 +1,44 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd" >
+<suite name="Suite" parallel="tests">
+<listeners>
+   <listener class-name="com.qa.listeners.TestListener"/>
+</listeners>
+  <test name="androidpixel8a">
+   <!-- wacha pero aqui ponemos los parametros del device -->
+   <parameter name="emulator" value="true" />
+   <parameter name="udid" value="emulator-5554" />
+   <parameter name="platformName" value="Android"/>
+   <parameter name="deviceName" value="Pixel_8a"/>
+   <!-- para paralel hay que agregar dos mas, systemport, y si usas webview CHromeDriverport, y en ios wdaLocalPort y webkitDebugProxyPort -->
+<!--    <parameter name="systemPort" value="11003"/>
+ -->   
+      <!-- en class ponemos el package donde estan los test-->
+      <classes>
+         <class name="com.qa.tests.LoginTests">
+         <methods>
+         <include name = "invalidUserName"/>
+         </methods>
+         </class> 
+         <!-- <class name="com.qa.tests.ProductsTests">
+         <methods>
+         <include name = "validateProductOnProductDetailsPage"/>
+         </methods>
+         </class> -->
+      </classes>
+   </test> 
+   <!-- y ya si quieres agregar mas tipos de devices solo agregas otro <test>, esto sirve para test en paralelo -->
+  <!--  <test name="androidpixel8">
+   <parameter name="emulator" value="true" />
+   <parameter name="udid" value="emulator-5556" />
+   <parameter name="platformName" value="Android"/>
+   <parameter name="deviceName" value="pixel_8_pro"/>
+   <parameter name="systemPort" value="11001"/>
+         <classes>
+         <class name="com.qa.tests.LoginTests">
+         <methods>
+         <include name = "invalidUserName"/>
+         </methods>
+         </class> 
+      </classes>
+   </test>  -->
+</suite>

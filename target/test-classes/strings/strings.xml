@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding ="utf-8"?>
+<resources>
+<!-- Error Text, el que teniamos para comaprar en los test, ahora harccodeado aqui -->
+   <string name = "err_invalid_user_or_password">Username and password do not match any user in this service.</string>
+   <string name = "product_title">PRODUCTS</string>
+   <!-- products page strings para validar -->
+   <string name = "products__page_slb_title">Sauce Labs Backpack</string>
+   <string name = "products__detail_page_slb_title">Sauce Labs Backpack</string>
+   <string name = "products__page_slb_txt">carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection.</string>
+   <string name = "products__page_slb_price">$29.99</string>
+   <string name = "products_details_page_slb_price">$29.99</string>
+ 
+   
+</resources> 

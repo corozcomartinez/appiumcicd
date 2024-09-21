@@ -1,0 +1,9 @@
+[WARN ] 2024-09-19 13:56:21.849 com.qa.BaseTest:172 - [WARN ] 2024-09-19 13:56:21.849 BaseTest:172 - This is warning Message
+[INFO ] 2024-09-19 14:18:02.722 com.qa.BaseTest:190 - [INFO ] 2024-09-19 14:18:02.722 BaseTest:190 - This is Info Message
+[ERROR] 2024-09-19 14:18:02.727 com.qa.BaseTest:191 - [ERROR] 2024-09-19 14:18:02.727 BaseTest:191 - This is error Message
+[DEBUG] 2024-09-19 14:18:02.727 com.qa.BaseTest:192 - [DEBUG] 2024-09-19 14:18:02.727 BaseTest:192 - This is debug Message
+[WARN ] 2024-09-19 14:18:02.727 com.qa.BaseTest:193 - [WARN ] 2024-09-19 14:18:02.727 BaseTest:193 - This is warning Message
+[INFO ] 2024-09-19 14:32:49.710 com.qa.BaseTest:198 - [INFO ] 2024-09-19 14:32:49.710 BaseTest:198 - This is Info Message
+[ERROR] 2024-09-19 14:32:49.713 com.qa.BaseTest:199 - [ERROR] 2024-09-19 14:32:49.713 BaseTest:199 - This is error Message
+[DEBUG] 2024-09-19 14:32:49.713 com.qa.BaseTest:200 - [DEBUG] 2024-09-19 14:32:49.713 BaseTest:200 - This is debug Message
+[WARN ] 2024-09-19 14:32:49.714 com.qa.BaseTest:201 - [WARN ] 2024-09-19 14:32:49.714 BaseTest:201 - This is warning Message
