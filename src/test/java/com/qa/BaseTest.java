@@ -73,7 +73,7 @@ public class BaseTest {
 	public void setDriver(AppiumDriver driver2) {
 		driver.set(driver2); //igual que arriba es para settear el valor del driver en cada thread
 	}
-	  
+	  //comment xd
 	public String getDateTime() {
 		  return dateTime.get();
 	}
